@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStore API Test Suite" parallel="false">
+    <test name="Pet and Store Tests">
+        <classes>
+            <class name="org.example.PetTests"/>
+            <class name="org.example.StoreTests"/>
+        </classes>
+    </test>
+</suite>
+
+        <!-- JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home mvn clean test -Dsurefire.suiteXmlFiles=testng.xml -->
